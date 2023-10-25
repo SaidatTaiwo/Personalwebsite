@@ -54,13 +54,30 @@ html {
 }
 
 button {
-    position: absolute;
-    bottom: 1.25rem; /* 20px / 16 = 1.25rem */
-    right: 0.9375rem; /* 15px / 16 = 0.9375rem */
-    transform: translate(-50%, -50%);
-    color: white;
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 0.625rem 1.25rem; /* 10px / 16 = 0.625rem, 20px / 16 = 1.25rem */
-    font-size: 1rem; /* 16px / 16 = 1rem */
+	position: absolute;
+	bottom: 10px;
+	right: 90px;
+	border: solid black;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	font-weight: 600;
+	border-radius: 3rem;
+	padding: 10px 20px;
+	font-size: 2rem;
+	line-height: normal;
+	text-transform: uppercase;
+	font-style: 'lato' sans-serif;
+}
+button:active{
+	background-color: white;
+}
+.lastpart{
+	color: solid black;
+	font-size: 2rem;
+	font-weight: 400;
+	border: 0;
+}
+.nav-item a:hover{
+	color: black;
 }
