@@ -1,58 +1,46 @@
-html {
-    font-size: 16px; /* You can adjust this value according to your design requirements */
-}
 
-.whole-container {
-    background-color: #EAF2F8;
+.nav-link{
+	color: #0c0c0c;
+	font-size: x-large;
 }
-
-.nav-link {
-    color: #0c0c0c;
-    font-size: 1.5rem; /* 24px / 16 = 1.5rem */
+@media (min-width: 767px) {
+	.img-laptop {
+		height: 100px;
+		width: 100px;
+	}
 }
-
-@media (min-width: 48rem) {
-    .img-laptop {
-        height: 4.5rem; /* 72px / 16 = 4.5rem */
-        width: 6.25rem; /* 100px / 16 = 6.25rem */
-    }
-}
-
 .img-laptop {
-    height: 45rem; /* 720px / 16 = 45rem */
-    width: 100%;
-    background-image: url(laptop.jpg);
-    position: relative;
-    display: flex;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    align-items: center;
-    justify-content: center;
+    height: 720px;
+	width: 100%;
+	background-image: url(laptop.jpg);
+	position: relative;
+	display: flex;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	align-items: center;
+	justify-content: center;
 }
-
 .content {
-    font-size: 3.125rem; /* 50px / 16 = 3.125rem */
-    color: #bf5700;
-    font-family: 'Sacramento', 'cursive';
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	font-size: 5rem;
+	color: #bf5700;
+	font-family: 'Sacramento', 'cursive';
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-
 .content2 {
-    font-size: 2.5rem; /* 40px / 16 = 2.5rem */
-    color: white;
-    font-family: 'Sacramento', 'cursive'; /* Fixed the font-family name */
-    display: inline-block;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	font-size: 4rem;
+	color: white;
+	font-family: sacramento;
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-
 button {
 	position: absolute;
 	bottom: 10px;
